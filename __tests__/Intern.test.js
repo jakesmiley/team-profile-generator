@@ -12,5 +12,5 @@ test("Set school for Intern", () => {
 test("confirm that getRole() returns Intern", () => {
     const employee = new Intern('Joshua', '21', 'test@testing.com', 'UofU');
 
-    expect(employee.getRole()).toBe("UofU");
+    expect(employee.getRole()).toBe("Intern");
 });
