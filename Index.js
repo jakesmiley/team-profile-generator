@@ -42,9 +42,9 @@ const teamBuilder = () => {
             const managerInstance = new Manager(managerInfo.name, managerInfo.id, managerInfo.email, managerInfo.officeNumber);
             console.log(managerInstance);
 
+            userChoice();
         });
 
-        userChoice();
     };
 
     // 1.5 Controller's choice
@@ -102,9 +102,11 @@ const teamBuilder = () => {
         ]).then((internInfo) => {
             const internInstance = new Intern(internInfo.name, internInfo.id, internInfo.email, internInfo.school);
             console.log(internInstance);
+
+            userChoice();
         });
 
-        userChoice();
+        
     };
 
     // 3. Add Engineer
@@ -134,14 +136,16 @@ const teamBuilder = () => {
         ]).then((engineerInfo) => {
             const engineerInstance = new Engineer(engineerInfo.name, engineerInfo.id, engineerInfo.email, engineerInfo.school);
             console.log(engineerInstance);
+
+            userChoice();
         });
 
-        userChoice();
+        
     };
 
     // 4. Gen HTML
     const genHtml = () => {
-        
+
     };
 
     addManager();
