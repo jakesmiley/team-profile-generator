@@ -134,7 +134,7 @@ const teamBuilder = () => {
             }
             
         ]).then((engineerInfo) => {
-            const engineerInstance = new Engineer(engineerInfo.name, engineerInfo.id, engineerInfo.email, engineerInfo.school);
+            const engineerInstance = new Engineer(engineerInfo.name, engineerInfo.id, engineerInfo.email, engineerInfo.github);
             console.log(engineerInstance);
 
             userChoice();
