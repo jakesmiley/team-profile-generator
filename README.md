@@ -16,7 +16,7 @@ This is a free-to-use app to generate a profile for your team. It's quick and ea
 Clone the repo, install node.js and Inquirer, then initiate the app with the command 'node index'.
 
 ## Usage
-Follow this link for my walkthrough video on using the app: [Walkthrough Video]()
+Follow this link for my walkthrough video on using the app: [Walkthrough Video](https://drive.google.com/file/d/13O8z6Rtx2whm1bWp8vsgSMuvdk1k8o_K/view)
 
 ## License
 MIT License
