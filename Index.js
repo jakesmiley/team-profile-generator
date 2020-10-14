@@ -63,13 +63,13 @@ const teamBuilder = () => {
             }
         )
             .then((selectedChoice) => {
-                if (selectedChoice === 'Add an Engineer') {
+                if (selectedChoice.choice === 'Add an Engineer') {
                     addEngineer();
                 };
-                if (selectedChoice === 'Add an Intern') {
+                if (selectedChoice.choice === 'Add an Intern') {
                     addIntern();
                 };
-                if (selectedChoice === 'Done adding team members') {
+                if (selectedChoice.choice === 'Done adding team members') {
                     genHtml();
                 };
             });
