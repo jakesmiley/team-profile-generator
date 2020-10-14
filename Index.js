@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const template = require("./src/template");
+// const template = require("./src/template");
 
 //team member constructors
 const Employee = require('./lib/Employee');
